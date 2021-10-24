@@ -187951,6 +187951,15 @@ video {
     --tw-hue-rotate: hue-rotate(-15deg);
   }
 
+
+
+
+.activeNav{
+    transform: translateY(0) !important;
+}
+
+
+
   .\32xl\:invert-0 {
     --tw-invert: invert(0);
   }
