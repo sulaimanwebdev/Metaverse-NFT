@@ -7,3 +7,220 @@
 body{
     overflow-x: hidden;
 }
+
+
+
+.desktopImageMint{
+    display: flex;
+}
+
+
+.mintBackgroundImageMobile{
+    display: none;
+}
+
+@media (max-width:740px){
+    .mintBackgroundImageMobile{
+        display: flex;
+    }
+    .desktopImageMint{
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1310px){
+    .roadmapCard{
+        max-width: 400px !important;
+        
+    }
+    
+    .roadmapCard1{
+        top: 40px !important;
+    }
+
+
+    .roadmapCard2{
+        top: 190px !important;
+    }
+
+    .roadmapCard3{
+        top: 400px !important;
+    }
+
+
+    .roadmapCard4{
+        top: 530px !important;
+    }
+
+    .roadmapCard5{
+        top: 710px !important;
+    }
+}
+
+
+
+@media (max-width:1192px){
+    .roadmapCard{
+        max-width: 350px !important;
+        
+    }
+    
+    .roadmapCard1{
+        top: 40px !important;
+    }
+
+
+    .roadmapCard2{
+        top: 190px !important;
+    }
+
+    .roadmapCard3{
+        top: 400px !important;
+    }
+
+
+    .roadmapCard4{
+        top: 530px !important;
+    }
+
+    .roadmapCard5{
+        top: 710px !important;
+    }
+}
+
+
+
+
+
+@media (max-width:1066px){
+.roadmapMobileVersion{
+    display: grid !important;
+}
+
+    .roadMapWhiteBar{
+        display: none !important;
+    }
+
+    .roadmap{
+        height: auto !important;
+    }
+.roadmapTopContainer{
+  display:flex !important;
+}
+    .phase2Container{
+        width: 50px !important;
+    }
+}
+
+@media (max-width:696px){
+    .roadmapMobileVersion{
+        grid-template-columns: 1fr !important;
+    }
+}
+
+
+
+.activeNav{
+    transform: translateY(0) !important;
+    transition:0.3s;
+}
+
+@media (max-width:1277px){
+
+    .perkOwnership{
+        height: auto !important;
+        padding-bottom: 100px;
+    }
+    .guitarContainer .relative{
+           margin-bottom:0px !important;
+    }
+    .perkOwnershipCardsContainer{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        grid-gap: 40px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+
+    .leftOneImage{
+        bottom:-100px !important;
+    }
+
+    .rightOneImage{
+        bottom:-100px !important;
+    }
+
+    .actualCard{
+        width: auto !important;
+    }
+
+    .actualCard .relative{
+        height: 40px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .actualCard .relative img{
+        position: absolute;
+        top: 0;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width:686px){
+    .perkOwnershipCardsContainer{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-gap: 40px;
+    }
+
+}
+
+
+@media (max-width:1210px){
+    .newskeltonImage{
+        display: none;
+    }
+}
+
+@media (max-width:380px){
+    .metaverseTitle{
+        font-size: 36px !important;
+    }
+}
+@media (max-width:926px){
+    .teamContainer{
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+}
+
+@media (max-width:798px){
+    .teamContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+@media (max-width:508px){
+    .teamContainer{
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+}
