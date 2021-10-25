@@ -7,3 +7,23 @@
 body{
     overflow-x: hidden;
 }
+
+
+.mobbbbb{
+    display: flex;
+}
+
+
+.asdasd{
+    display: none;
+}
+
+@media (max-width:740px){
+    .asdasd{
+        display: flex;
+    }
+    .mobbbbb{
+        display: none !important;
+    }
+}
+
