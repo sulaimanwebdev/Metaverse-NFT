@@ -152,6 +152,10 @@ body{
 
     }
 
+    .actualCard1{
+        padding-bottom: 70px !important;
+    }
+
     .leftOneImage{
         bottom:-100px !important;
     }
@@ -231,5 +235,17 @@ body{
 @media (max-width:884px){
     .actualCard4{
         padding-top: 30px !important;
+    }
+}
+
+@media (max-width:967px){
+    .actualCard1{
+        padding-bottom: 100px !important;
+    }
+
+}
+@media (max-width:999px){
+    .actualCard4{
+        padding-bottom: 70px !important;
     }
 }
