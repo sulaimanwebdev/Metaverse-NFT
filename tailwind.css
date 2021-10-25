@@ -187954,10 +187954,6 @@ video {
 
 
 
-.activeNav{
-    transform: translateY(0) !important;
-}
-
 
 
   .\32xl\:invert-0 {
@@ -188511,6 +188507,97 @@ video {
 
 @media (max-width:696px){
     .werwer2{
+        grid-template-columns: 1fr !important;
+    }
+}
+
+
+
+.activeNav{
+    transform: translateY(0) !important;
+    transition:0.3s;
+}
+
+@media (max-width:1277px){
+
+    .perkOwnership{
+        height: auto !important;
+        padding-bottom: 100px;
+    }
+    .cccards{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        grid-gap: 40px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+
+    .leftOneImage{
+        bottom:-100px !important;
+    }
+
+    .rightOneImage{
+        bottom:-100px !important;
+    }
+
+    .actualCard{
+        width: auto !important;
+    }
+
+    .actualCard .relative{
+        height: 40px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .actualCard .relative img{
+        position: absolute;
+        top: 0;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width:686px){
+    .cccards{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-gap: 40px;
+    }
+
+}
+
+
+@media (max-width:1210px){
+    .newskeltonImage{
+        display: none;
+    }
+}
+
+@media (max-width:380px){
+    .ggggasda{
+        font-size: 36px !important;
+    }
+}
+@media (max-width:926px){
+    .llGridasd{
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+}
+
+@media (max-width:798px){
+    .llGridasd{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+@media (max-width:508px){
+    .llGridasd{
+        display: grid;
         grid-template-columns: 1fr !important;
     }
 }
