@@ -145,6 +145,12 @@ body{
         margin-left: 30px !important;
         margin-right: 30px !important;
     }
+    
+    .actualCard2{
+        padding-bottom: 35px !important;
+        padding-top: 35px !important;
+
+    }
 
     .leftOneImage{
         bottom:-100px !important;
@@ -213,5 +219,17 @@ body{
     .teamContainer{
         display: grid;
         grid-template-columns: 1fr !important;
+    }
+}
+@media (max-width:960px){
+    .actualCard4{
+        padding-top: 65px !important;
+    }
+}
+
+
+@media (max-width:884px){
+    .actualCard4{
+        padding-top: 30px !important;
     }
 }
