@@ -188393,3 +188393,124 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
+
+
+.mobbbbb{
+    display: flex;
+}
+
+
+.asdasd{
+    display: none;
+}
+
+@media (max-width:740px){
+    .asdasd{
+        display: flex;
+    }
+    .mobbbbb{
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1310px){
+    .rrrr{
+        max-width: 400px !important;
+        
+    }
+    
+    .rrrr1{
+        top: 40px !important;
+    }
+
+
+    .rrrr2{
+        top: 190px !important;
+    }
+
+    .rrrr3{
+        top: 400px !important;
+    }
+
+
+    .rrrr4{
+        top: 530px !important;
+    }
+
+    .rrrr5{
+        top: 710px !important;
+    }
+}
+
+
+
+@media (max-width:1192px){
+    .rrrr{
+        max-width: 350px !important;
+        
+    }
+    
+    .rrrr1{
+        top: 40px !important;
+    }
+
+
+    .rrrr2{
+        top: 190px !important;
+    }
+
+    .rrrr3{
+        top: 400px !important;
+    }
+
+
+    .rrrr4{
+        top: 530px !important;
+    }
+
+    .rrrr5{
+        top: 710px !important;
+    }
+}
+
+
+
+
+
+@media (max-width:1066px){
+.werwer2{
+    display: grid !important;
+}
+
+    .werwer{
+        display: none !important;
+    }
+
+    .roadmap{
+        height: auto !important;
+    }
+
+    .qweasdasd{
+        width: 50px !important;
+    }
+}
+
+@media (max-width:696px){
+    .werwer2{
+        grid-template-columns: 1fr !important;
+    }
+}
