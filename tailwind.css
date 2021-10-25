@@ -188524,6 +188524,9 @@ video {
         height: auto !important;
         padding-bottom: 100px;
     }
+    .gggutar .relative{
+           margin-bottom:0px !important;
+    }
     .cccards{
         display: grid !important;
         grid-template-columns: 1fr 1fr !important;
