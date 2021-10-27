@@ -44,11 +44,13 @@ transform: translateY(-6px);
     }
 .desktopImageMint{
     display: flex;
+    width: 900px ! important; bottom: -500px !important;
 }
 
 
 .mintBackgroundImageMobile{
     display: none;
+    width: 900px;
 }
 
 @media (max-width:740px){
@@ -326,7 +328,7 @@ transform: translateY(-6px);
     border-bottom-right-radius: 0 !important;
     position: relative;
     transform: translateX(8px);
-
+    padding: 1px 0px !important;
 
     max-width: 40px;
     
@@ -454,6 +456,3 @@ transform: translateY(-6px);
 .actualCard2 img{
     transform: translateY(7px);
  } 
-
-
-
